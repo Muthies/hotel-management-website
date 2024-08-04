@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+.header {
+    background-color: #f7fbffe3;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Ensure the positioning context */
+    z-index: 1; /* Ensure header is on top of other content */
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Adjust as needed */
+    left: 0;
+    width: 100%;
+    height: 10px; /* Height of the shading */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)); /* Adjust colors as needed */
+}
+
+.nav {
+    display: flex;
+    list-style-type: none; /* Remove bullet points from list */
+}
+
+.nav li {
+    padding: 0 10px;
+}
+
+.nav li h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+.nav li:hover {
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex; /* Make the container a flexbox */
+    justify-content: center; /* Center the images horizontally */
+    margin-top: 60px; /* Adjust as needed */
+}
+
+.dt {
+    width: 350px; /* Each image takes up half of the container width */
+    height: 300px; /* Ensure the aspect ratio is maintained */
+    margin: 0 20px; /* Add some space between the images */
+}
+.dtform{
+    margin-top: 30px;
+}
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.bt{
+    background-color: rgb(231, 193, 255);
+    border:none;
+    outline: none;
+    border-radius: 20px;
+}
+.bt:hover{
+    background-color: blueviolet;
+}

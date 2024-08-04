@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color:#f7fbffe3;
+    padding: 15px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space between the logo and navigation */
+}
+.header {
+    background-color: #f7fbffe3;
+    padding: 15px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space between the logo and navigation */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+
+.nav {
+    display: flex;
+    list-style-type: none; /* Remove bullet points from list */
+    
+}
+
+.nav li {
+    padding:0 10px ;
+}
+
+.nav li h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+.nav li:hover {
+    color: darkcyan;
+    cursor: pointer;
+}
+/* login */
+
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    
+}
+
+.bt{
+    background-color: rgb(231, 193, 255);
+    border:none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.log{
+    margin-top: 35px;
+    color: #666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    margin: 50px auto; /* Center the container on the page */
+    width: 80%; /* Set the width of the container */
+    max-width: 700px; /* Set the maximum width of the container */
+    background-color: #f2f2f2; /* Background color for the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.image-container {
+    flex: 1; /* Take up half of the container */
+}
+
+.image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.form-container {
+    flex: 1; /* Take up half of the container */
+    padding: 20px; /* Add padding to the form */
+}
+
+/* book */
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.stay, .brochure {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.stay {
+    background-color: hsl(212, 100%, 70%);
+    max-width: 300px; /* Reduced maximum width */
+}
+
+.book, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    
+}
+.book{
+    padding: 10px;
+
+}
+.inline-inputs > div {
+    margin-top: 10px;
+}
+
+
+.bt2 {
+    background-color: goldenrod;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bt2:hover {
+    background-color: yellow;
+}
+

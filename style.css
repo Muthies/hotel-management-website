@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+.header {
+    background-color:white;
+    padding: 15px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space between the logo and navigation */
+}
+
+.nav {
+    display: flex;
+    list-style-type: none; /* Remove bullet points from list */
+    
+}
+
+.nav li {
+    padding:0 10px ;
+}
+
+.nav li h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+.nav li:hover {
+    color: darkcyan;
+    cursor: pointer;
+}
+.About{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    background-color: rgba(245, 245, 245, 0.959);
+    padding: 40px;
+    text-align: justify;
+}
+
+.intro img {
+    width: 600px; /* or any other desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+.parah{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parah:hover{
+    background-color:rgb(228, 239, 255);
+}
+.dining {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+}
+
+.item {
+    width: calc(33.33% - 20px); /* Calculate width to fit three items with spacing */
+    margin-bottom: 20px; /* Add bottom margin for spacing between rows */
+    text-align: center; /* Center-align the content */
+}
+
+.item img {
+    width: 100%; /* Make sure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.item p {
+    margin-top: 10px; /* Add space between image and text */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #666; /* Adjust text color as needed */
+}
+
+.end{
+    color:black;
+}
+
+.button{
+    background-color: goldenrod;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+.bottom{
+    margin-top: 30px;
+    background-color: rgb(223, 233, 255);
+    padding: 20px;
+
+}
+.address{
+    margin-top: 20px;
+}
